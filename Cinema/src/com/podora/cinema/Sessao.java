@@ -68,7 +68,7 @@ public class Sessao {
 	public int lugaresDisponiveis() {
 		return capacidadeMaxima - qtdIngressos;
 	}
-	private float valorPercentual(float percentual) {
+	private static float valorPercentual(float percentual) {
 		return precoIntegral * (1 - percentual/ 100);
 	}
 	
