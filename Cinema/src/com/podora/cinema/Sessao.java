@@ -17,7 +17,7 @@ public class Sessao {
         this.filme = filme;
         this.horaInicio = horaInicio;
 		if(capacidadeMaxima <0) {
-			this.capacidadeMaxima = capacidadeMaxima;
+			this.capacidadeMaxima = 50;
 		}
 		this.qtdIngressos = 0;
         this.valorArrecadado = 0;
