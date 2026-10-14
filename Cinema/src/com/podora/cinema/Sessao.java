@@ -16,9 +16,11 @@ public class Sessao {
 		this.codigoIdentificador = codigoIdentificador;
         this.filme = filme;
         this.horaInicio = horaInicio;
-		if(capacidadeMaxima <0) {
-			this.capacidadeMaxima = 50;
-		}
+        if (capacidadeMaxima <= 0) {
+            this.capacidadeMaxima = 50;
+        } else {
+            this.capacidadeMaxima = capacidadeMaxima;
+        }
 		this.qtdIngressos = 0;
         this.valorArrecadado = 0;
 	}
